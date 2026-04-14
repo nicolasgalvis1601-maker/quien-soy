@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas Galvis</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav>
+        <span class="nombre-nav"><b>Nicolas </b>Galvis</span>
+        <span class="enlaces-nav">
+            <a href="#inicio" class="activo">Inicio</a>
+            <a href="#quien">¿Quien soy?</a>
+            <a href="#proyectos">Proyectos</a>
+        </span>
+    </nav>
+
+    <main>
+
+        <section class="inicio" id="inicio">
+            <div class="imagen-inicio">
+                <img style="height: 400px; width: 600px;" src="descarga.jpg33.jpg" alt="Ilustración">
+            </div>
+            <div class="texto-inicio">
+                <h1>¿Quien soy?</h1>
+                <p>soy un estudiante de desarrollo web apasionado por la tecnología y el diseño.
+ Me encanta aprender nuevas habilidades y enfrentar desafíos en el mundo digital. </p>
+                <a href="#quien" class="boton-rojo">Leer más</a>
+            </div>
+        </section>
+
+    
+        <section class="quien-soy" id="quien">
+            <img class="foto-perfil" src="44.jpg" alt="Nicolas Galvis">
+            <p style="color: white; font-size: 30px;">
+                "Soy un apasionado del desarrollo web, siempre buscando aprender y crear experiencias digitales
+                impactantes. Mi objetivo es combinar creatividad y tecnología para construir soluciones innovadoras
+               que mejoren la vida de las personas tambien quiero seguir adelante y aprender siempre."
+              </p>
+            <p style="color: white; font-size: 30px; margin-top:10px;">- Nicolas Galvis</p>
+        </section>
+
+    
+        <section class="proyectos" id="proyectos">
+            <h2>Mis proyectos</h2>
+            <div class="contenedor-tarjetas">
+
+                <div class="tarjeta">
+                    <img src="descarga.png" alt="Proyecto 1">
+                    <div class="cuerpo-tarjeta">
+                        <h3>Hoja De Vida</h3>
+                        <p>Proyecto donde diseñamos nuestra hoja de vida usando conceptos basicos con HTML y CSS,
+                            colocando a prueba nuestros conomientos hasta el momento añidendo nuestra hoja de vida.</p>
+                        <a href="#" class="boton-rojo">Ver proyecto</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="Aguila cerveza.jpg" alt="Proyecto 2">
+                    <div class="cuerpo-tarjeta">
+                        <h3>Tarjeta De Presentacion</h3>
+                        <p>Proyecto para aprender a usar diferentes colores y tonalidades en CSS sacando nuestra capacidad
+                            artistica con esta herramienta,creando marcadores de colores.</p>
+                        <a href="#" class="boton-rojo">Ver proyecto</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="44.jpg" alt="Proyecto 3">
+                    <div class="cuerpo-tarjeta">
+                        <h3>Quien Soy</h3>
+                        <p>Proyecto donde se construye una pagina imitando el diseño de otra como ejemplo
+                            y hacerla lo mas funcional posible con caracteristicas nuestras de quienes creemos ser esta pagina es en la que estamos. </p>
+                        <a href="#" class="boton-rojo">Ver proyecto</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="descarga.jpg33.jpg" alt="Proyecto 4">
+                    <div class="cuerpo-tarjeta">
+                        <h3>Portafolio</h3>
+                        <p>Proyecto donde crearemos una pagina para ser usada como nuestro portafolio y poder 
+                            llevar las evidencias de todos los demas proyectos que hemos y sigamos haciendo mas adelante.</p>
+                        <a href="#" class="boton-rojo">Ver proyecto</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <b>
+                <p class="footer">© 2026 Nicolas Galvis (El filosofo)</p>
+            </b>
+        </footer>
+
+    </main>
+     <style>
+
+     * {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+ body {
+  height: 100vh; 
+  overflow: hidden; 
+  font-family:
+    "Segoe UI", "Helvetica Neue", sans-serif; 
+}
+
+
+nav {
+  background: #2c2c2c; 
+  padding: 10px 40px 10px; 
+  overflow: hidden; 
+}
+
+.nombre-nav {
+  float: left; 
+  color: white;
+  font-size: 30px; 
+  font-weight: 300; 
+  line-height: 1.6; 
+}
+
+.nombre-nav strong {
+  font-weight: 700; 
+}
+
+.enlaces-nav {
+  float: right; 
+  line-height: 1.6; 
+ margin-top: 5px; 
+}
+.enlaces-nav a {
+  color: #cccccc; 
+  text-decoration: none; 
+  margin-left: 20px;
+  font-size: 20px; 
+  letter-spacing: 0.5px;
+  transition: color 0.2s; 
+}
+
+.enlaces-nav a:hover,
+.enlaces-nav a.activo {
+  color: white; 
+  font-weight: 600; 
+}
+
+
+main {
+  height: calc(
+    100vh - 40px
+  ); 
+  overflow-y: auto; 
+}
+
+.inicio {
+  background: #ffffff; 
+  padding: 10px 10px; 
+  overflow: hidden; 
+  min-height: 420px; 
+}
+
+.imagen-inicio {
+  float: left; 
+  width: 50%; 
+  text-align: center; 
+  padding-top: 10px; 
+}
+
+.imagen-inicio img {
+  width: 100%; 
+  max-width: 400px; 
+}
+
+.texto-inicio {
+  float: right; 
+  width: 50%; 
+  padding-top: 10px; 
+}
+
+.texto-inicio h1 {
+  font-size: 52px; 
+  font-weight: 700; 
+  color: #e74c3c; 
+  margin-bottom: 20px; 
+  line-height: 1.1; 
+}
+.texto-inicio p {
+  font-size: 30px; 
+  color: #555; 
+  line-height: 1.7; 
+  margin-bottom: 30px; 
+}
+
+.boton-rojo {
+  background: #e74c3c;
+  color: white; 
+  border: none; 
+  padding: 10px 15px; 
+  font-size: 15px; 
+  font-weight: 600; 
+  border-radius: 4px; 
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s; 
+}
+.boton-rojo:hover {
+  background: #c0392b; 
+}
+
+
+.quien-soy {
+  background: #e74c3c; 
+  padding: 20px 80px;
+  text-align: center; 
+}
+.foto-perfil {
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%;
+  border: 6px solid white;
+  margin: 0 auto 40px auto;
+  object-fit: cover;
+}
+
+.quien-soy blockquote {
+  font-size: 30px; 
+  color: white; 
+  line-height: 1.7; 
+  max-width: 800px;
+  margin: 0 auto 16px auto; 
+}
+
+.quien-soy cite {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px; 
+  font-style: italic; 
+}
+
+
+.proyectos {
+  background: #f2f2f2; 
+  padding: 20px 20px; 
+  overflow: hidden;
+}
+
+.proyectos h2 {
+  font-size: 38px; 
+  font-weight: 700; 
+  color: #333; 
+  text-align: center;
+  margin-bottom: 40px; 
+}
+
+.contenedor-tarjetas {
+  overflow: hidden; 
+}
+
+.tarjeta {
+  float: left;
+  width: 24%;
+  margin-right: 1%;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tarjeta:last-child {
+  margin-right: 0; 
+}
+
+.tarjeta img {
+  width: 100%; 
+  height: 320px; 
+  object-fit: cover; 
+}
+
+.cuerpo-tarjeta {
+  padding: 32px 16px;
+}
+
+.cuerpo-tarjeta h3 {
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #333;
+  margin-bottom: 12px; 
+}
+
+.cuerpo-tarjeta p {
+  font-size: 20px; 
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background: #2c2c2c; 
+  color: #aaa; 
+  font-size: 12px; 
+   padding: 20px 40px 43px; 
+  text-align: center; 
+
+  
+}
+
+.footer {
+ text-align: right;
+}
+</style>
+
+</body>
+
+</html>
